@@ -35,9 +35,9 @@ Digite o comando "sudo vi /etc/sysctl.conf" e adicione a seguinte entrada no fin
 Efetive as mudanças rodando o comando abaixo:<br>
 ``sudo sysctl -p``
 
-## Download e instalação do Elasticsearch 7.4:
+## Download e instalação do Elasticsearch 7.6.2:
 Vamos agora realizar a instalação baixando o pacote tar.gz do Elasticsearch pelo wget:<br>
-``wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.4.2-linux-x86_64.tar.gz`` 
+``wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.6.2-linux-x86_64.tar.gz`` 
 
 Agora descompactamos o pacote:<br>
 ``tar zfxv elasticsearch-7.4.2-linux-x86_64.tar.gz``
